@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FB3BACF2C2056F700402317 /* atjesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BACE2C2056F700402317 /* atjesAppApp.swift */; };
+		2FB3BAD12C2056F700402317 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BAD02C2056F700402317 /* ContentView.swift */; };
+		2FB3BAD32C2056F900402317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB3BAD22C2056F900402317 /* Assets.xcassets */; };
+		2FB3BAD62C2056F900402317 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB3BAD52C2056F900402317 /* Preview Assets.xcassets */; };
+		2FB3BAE02C2056F900402317 /* atjesAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BADF2C2056F900402317 /* atjesAppTests.swift */; };
+		2FB3BAEA2C2056F900402317 /* atjesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BAE92C2056F900402317 /* atjesAppUITests.swift */; };
+		2FB3BAEC2C2056F900402317 /* atjesAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BAEB2C2056F900402317 /* atjesAppUITestsLaunchTests.swift */; };
+		2FB3BAFA2C205CE600402317 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BAF92C205CE600402317 /* MainView.swift */; };
+		2FB3BAFD2C205D3900402317 /* StateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BAFC2C205D3900402317 /* StateModel.swift */; };
+		2FB3BB062C2061D700402317 /* AtjesApiClient in Frameworks */ = {isa = PBXBuildFile; productRef = 2FB3BB052C2061D700402317 /* AtjesApiClient */; };
+		2FB3BB082C20634200402317 /* SetupUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BB072C20634200402317 /* SetupUserView.swift */; };
+		2FB3BB0B2C2063D300402317 /* User+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BB0A2C2063D300402317 /* User+API.swift */; };
+		2FB3BB122C20697400402317 /* StateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BAFC2C205D3900402317 /* StateModel.swift */; };
+		2FB3BB132C20697400402317 /* SetupUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BB072C20634200402317 /* SetupUserView.swift */; };
+		2FB3BB152C20697400402317 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BAD02C2056F700402317 /* ContentView.swift */; };
+		2FB3BB162C20697400402317 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BAF92C205CE600402317 /* MainView.swift */; };
+		2FB3BB172C20697400402317 /* atjesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BACE2C2056F700402317 /* atjesAppApp.swift */; };
+		2FB3BB192C20697400402317 /* AtjesApiClient in Frameworks */ = {isa = PBXBuildFile; productRef = 2FB3BB102C20697400402317 /* AtjesApiClient */; };
+		2FB3BB1B2C20697400402317 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB3BAD52C2056F900402317 /* Preview Assets.xcassets */; };
+		2FB3BB1C2C20697400402317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB3BAD22C2056F900402317 /* Assets.xcassets */; };
+		2FB3BB252C2069A300402317 /* User+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB3BB232C2069A000402317 /* User+API.swift */; };
+		2FDCC46E2C20703E00DE0A4C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDCC46D2C20703E00DE0A4C /* LoadingView.swift */; };
+		2FDCC46F2C20704900DE0A4C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDCC46D2C20703E00DE0A4C /* LoadingView.swift */; };
+		2FDCC4712C2070C800DE0A4C /* Beverage+API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDCC4702C2070C800DE0A4C /* Beverage+API.swift */; };
+		2FDCC4732C2071D100DE0A4C /* Beverage+Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDCC4722C2071D100DE0A4C /* Beverage+Api.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FB3BADC2C2056F900402317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FB3BAC32C2056F700402317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FB3BACA2C2056F700402317;
+			remoteInfo = atjesApp;
+		};
+		2FB3BAE62C2056F900402317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FB3BAC32C2056F700402317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FB3BACA2C2056F700402317;
+			remoteInfo = atjesApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FB3BACB2C2056F700402317 /* atjesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atjesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB3BACE2C2056F700402317 /* atjesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atjesAppApp.swift; sourceTree = "<group>"; };
+		2FB3BAD02C2056F700402317 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FB3BAD22C2056F900402317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FB3BAD52C2056F900402317 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FB3BADB2C2056F900402317 /* atjesAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atjesAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB3BADF2C2056F900402317 /* atjesAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atjesAppTests.swift; sourceTree = "<group>"; };
+		2FB3BAE52C2056F900402317 /* atjesAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atjesAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB3BAE92C2056F900402317 /* atjesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atjesAppUITests.swift; sourceTree = "<group>"; };
+		2FB3BAEB2C2056F900402317 /* atjesAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atjesAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FB3BAF92C205CE600402317 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2FB3BAFC2C205D3900402317 /* StateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateModel.swift; sourceTree = "<group>"; };
+		2FB3BAFE2C205F8D00402317 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2FB3BB072C20634200402317 /* SetupUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupUserView.swift; sourceTree = "<group>"; };
+		2FB3BB0A2C2063D300402317 /* User+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+API.swift"; sourceTree = "<group>"; };
+		2FB3BB202C20697400402317 /* atjesApp Mocked API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "atjesApp Mocked API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB3BB232C2069A000402317 /* User+API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+API.swift"; sourceTree = "<group>"; };
+		2FDCC46D2C20703E00DE0A4C /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		2FDCC4702C2070C800DE0A4C /* Beverage+API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Beverage+API.swift"; sourceTree = "<group>"; };
+		2FDCC4722C2071D100DE0A4C /* Beverage+Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Beverage+Api.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FB3BAC82C2056F700402317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB3BB062C2061D700402317 /* AtjesApiClient in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB3BAD82C2056F900402317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB3BAE22C2056F900402317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB3BB182C20697400402317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB3BB192C20697400402317 /* AtjesApiClient in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FB3BAC22C2056F700402317 = {
+			isa = PBXGroup;
+			children = (
+				2FB3BAFE2C205F8D00402317 /* README.md */,
+				2FB3BACD2C2056F700402317 /* atjesApp */,
+				2FB3BADE2C2056F900402317 /* atjesAppTests */,
+				2FB3BAE82C2056F900402317 /* atjesAppUITests */,
+				2FB3BACC2C2056F700402317 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FB3BACC2C2056F700402317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FB3BACB2C2056F700402317 /* atjesApp.app */,
+				2FB3BADB2C2056F900402317 /* atjesAppTests.xctest */,
+				2FB3BAE52C2056F900402317 /* atjesAppUITests.xctest */,
+				2FB3BB202C20697400402317 /* atjesApp Mocked API.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FB3BACD2C2056F700402317 /* atjesApp */ = {
+			isa = PBXGroup;
+			children = (
+				2FB3BB092C2063C200402317 /* Extensions */,
+				2FB3BAFB2C205D0400402317 /* Models */,
+				2FB3BAF82C205CDB00402317 /* Views */,
+				2FB3BACE2C2056F700402317 /* atjesAppApp.swift */,
+				2FB3BAD02C2056F700402317 /* ContentView.swift */,
+				2FB3BAD22C2056F900402317 /* Assets.xcassets */,
+				2FB3BAD42C2056F900402317 /* Preview Content */,
+			);
+			path = atjesApp;
+			sourceTree = "<group>";
+		};
+		2FB3BAD42C2056F900402317 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FB3BAD52C2056F900402317 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FB3BADE2C2056F900402317 /* atjesAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FB3BADF2C2056F900402317 /* atjesAppTests.swift */,
+			);
+			path = atjesAppTests;
+			sourceTree = "<group>";
+		};
+		2FB3BAE82C2056F900402317 /* atjesAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FB3BAE92C2056F900402317 /* atjesAppUITests.swift */,
+				2FB3BAEB2C2056F900402317 /* atjesAppUITestsLaunchTests.swift */,
+			);
+			path = atjesAppUITests;
+			sourceTree = "<group>";
+		};
+		2FB3BAF82C205CDB00402317 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2FB3BAF92C205CE600402317 /* MainView.swift */,
+				2FB3BB072C20634200402317 /* SetupUserView.swift */,
+				2FDCC46D2C20703E00DE0A4C /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2FB3BAFB2C205D0400402317 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FB3BAFC2C205D3900402317 /* StateModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2FB3BB092C2063C200402317 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2FB3BB0E2C20696100402317 /* Mocked */,
+				2FB3BB0A2C2063D300402317 /* User+API.swift */,
+				2FDCC4702C2070C800DE0A4C /* Beverage+API.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2FB3BB0E2C20696100402317 /* Mocked */ = {
+			isa = PBXGroup;
+			children = (
+				2FB3BB232C2069A000402317 /* User+API.swift */,
+				2FDCC4722C2071D100DE0A4C /* Beverage+Api.swift */,
+			);
+			path = Mocked;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FB3BACA2C2056F700402317 /* atjesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB3BAEF2C2056F900402317 /* Build configuration list for PBXNativeTarget "atjesApp" */;
+			buildPhases = (
+				2FB3BAC72C2056F700402317 /* Sources */,
+				2FB3BAC82C2056F700402317 /* Frameworks */,
+				2FB3BAC92C2056F700402317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = atjesApp;
+			packageProductDependencies = (
+				2FB3BB052C2061D700402317 /* AtjesApiClient */,
+			);
+			productName = atjesApp;
+			productReference = 2FB3BACB2C2056F700402317 /* atjesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FB3BADA2C2056F900402317 /* atjesAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB3BAF22C2056F900402317 /* Build configuration list for PBXNativeTarget "atjesAppTests" */;
+			buildPhases = (
+				2FB3BAD72C2056F900402317 /* Sources */,
+				2FB3BAD82C2056F900402317 /* Frameworks */,
+				2FB3BAD92C2056F900402317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FB3BADD2C2056F900402317 /* PBXTargetDependency */,
+			);
+			name = atjesAppTests;
+			productName = atjesAppTests;
+			productReference = 2FB3BADB2C2056F900402317 /* atjesAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FB3BAE42C2056F900402317 /* atjesAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB3BAF52C2056F900402317 /* Build configuration list for PBXNativeTarget "atjesAppUITests" */;
+			buildPhases = (
+				2FB3BAE12C2056F900402317 /* Sources */,
+				2FB3BAE22C2056F900402317 /* Frameworks */,
+				2FB3BAE32C2056F900402317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FB3BAE72C2056F900402317 /* PBXTargetDependency */,
+			);
+			name = atjesAppUITests;
+			productName = atjesAppUITests;
+			productReference = 2FB3BAE52C2056F900402317 /* atjesAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2FB3BB0F2C20697400402317 /* atjesApp Mocked API */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB3BB1D2C20697400402317 /* Build configuration list for PBXNativeTarget "atjesApp Mocked API" */;
+			buildPhases = (
+				2FB3BB112C20697400402317 /* Sources */,
+				2FB3BB182C20697400402317 /* Frameworks */,
+				2FB3BB1A2C20697400402317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "atjesApp Mocked API";
+			packageProductDependencies = (
+				2FB3BB102C20697400402317 /* AtjesApiClient */,
+			);
+			productName = atjesApp;
+			productReference = 2FB3BB202C20697400402317 /* atjesApp Mocked API.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FB3BAC32C2056F700402317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2FB3BACA2C2056F700402317 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2FB3BADA2C2056F900402317 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2FB3BACA2C2056F700402317;
+					};
+					2FB3BAE42C2056F900402317 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2FB3BACA2C2056F700402317;
+					};
+				};
+			};
+			buildConfigurationList = 2FB3BAC62C2056F700402317 /* Build configuration list for PBXProject "atjesApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FB3BAC22C2056F700402317;
+			packageReferences = (
+				2FB3BB042C2061D700402317 /* XCLocalSwiftPackageReference "AtjesApiClient" */,
+			);
+			productRefGroup = 2FB3BACC2C2056F700402317 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FB3BACA2C2056F700402317 /* atjesApp */,
+				2FB3BB0F2C20697400402317 /* atjesApp Mocked API */,
+				2FB3BADA2C2056F900402317 /* atjesAppTests */,
+				2FB3BAE42C2056F900402317 /* atjesAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FB3BAC92C2056F700402317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB3BAD62C2056F900402317 /* Preview Assets.xcassets in Resources */,
+				2FB3BAD32C2056F900402317 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB3BAD92C2056F900402317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB3BAE32C2056F900402317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB3BB1A2C20697400402317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB3BB1B2C20697400402317 /* Preview Assets.xcassets in Resources */,
+				2FB3BB1C2C20697400402317 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FB3BAC72C2056F700402317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB3BAFD2C205D3900402317 /* StateModel.swift in Sources */,
+				2FB3BB082C20634200402317 /* SetupUserView.swift in Sources */,
+				2FB3BB0B2C2063D300402317 /* User+API.swift in Sources */,
+				2FDCC4712C2070C800DE0A4C /* Beverage+API.swift in Sources */,
+				2FB3BAD12C2056F700402317 /* ContentView.swift in Sources */,
+				2FB3BAFA2C205CE600402317 /* MainView.swift in Sources */,
+				2FDCC46E2C20703E00DE0A4C /* LoadingView.swift in Sources */,
+				2FB3BACF2C2056F700402317 /* atjesAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB3BAD72C2056F900402317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB3BAE02C2056F900402317 /* atjesAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB3BAE12C2056F900402317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB3BAEC2C2056F900402317 /* atjesAppUITestsLaunchTests.swift in Sources */,
+				2FB3BAEA2C2056F900402317 /* atjesAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB3BB112C20697400402317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FB3BB122C20697400402317 /* StateModel.swift in Sources */,
+				2FB3BB132C20697400402317 /* SetupUserView.swift in Sources */,
+				2FB3BB252C2069A300402317 /* User+API.swift in Sources */,
+				2FDCC4732C2071D100DE0A4C /* Beverage+Api.swift in Sources */,
+				2FB3BB152C20697400402317 /* ContentView.swift in Sources */,
+				2FB3BB162C20697400402317 /* MainView.swift in Sources */,
+				2FDCC46F2C20704900DE0A4C /* LoadingView.swift in Sources */,
+				2FB3BB172C20697400402317 /* atjesAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FB3BADD2C2056F900402317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FB3BACA2C2056F700402317 /* atjesApp */;
+			targetProxy = 2FB3BADC2C2056F900402317 /* PBXContainerItemProxy */;
+		};
+		2FB3BAE72C2056F900402317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FB3BACA2C2056F700402317 /* atjesApp */;
+			targetProxy = 2FB3BAE62C2056F900402317 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FB3BAED2C2056F900402317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FB3BAEE2C2056F900402317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FB3BAF02C2056F900402317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"atjesApp/Preview Content\"";
+				DEVELOPMENT_TEAM = LW4383B6D2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iodigital.atjesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FB3BAF12C2056F900402317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"atjesApp/Preview Content\"";
+				DEVELOPMENT_TEAM = LW4383B6D2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iodigital.atjesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FB3BAF32C2056F900402317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW4383B6D2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iodigital.atjesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/atjesApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/atjesApp";
+			};
+			name = Debug;
+		};
+		2FB3BAF42C2056F900402317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW4383B6D2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iodigital.atjesAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/atjesApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/atjesApp";
+			};
+			name = Release;
+		};
+		2FB3BAF62C2056F900402317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW4383B6D2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iodigital.atjesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = atjesApp;
+			};
+			name = Debug;
+		};
+		2FB3BAF72C2056F900402317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LW4383B6D2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iodigital.atjesAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = atjesApp;
+			};
+			name = Release;
+		};
+		2FB3BB1E2C20697400402317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"atjesApp/Preview Content\"";
+				DEVELOPMENT_TEAM = LW4383B6D2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iodigital.atjesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FB3BB1F2C20697400402317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"atjesApp/Preview Content\"";
+				DEVELOPMENT_TEAM = LW4383B6D2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iodigital.atjesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FB3BAC62C2056F700402317 /* Build configuration list for PBXProject "atjesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB3BAED2C2056F900402317 /* Debug */,
+				2FB3BAEE2C2056F900402317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB3BAEF2C2056F900402317 /* Build configuration list for PBXNativeTarget "atjesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB3BAF02C2056F900402317 /* Debug */,
+				2FB3BAF12C2056F900402317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB3BAF22C2056F900402317 /* Build configuration list for PBXNativeTarget "atjesAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB3BAF32C2056F900402317 /* Debug */,
+				2FB3BAF42C2056F900402317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB3BAF52C2056F900402317 /* Build configuration list for PBXNativeTarget "atjesAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB3BAF62C2056F900402317 /* Debug */,
+				2FB3BAF72C2056F900402317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB3BB1D2C20697400402317 /* Build configuration list for PBXNativeTarget "atjesApp Mocked API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FB3BB1E2C20697400402317 /* Debug */,
+				2FB3BB1F2C20697400402317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2FB3BB042C2061D700402317 /* XCLocalSwiftPackageReference "AtjesApiClient" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = AtjesApiClient;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2FB3BB052C2061D700402317 /* AtjesApiClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AtjesApiClient;
+		};
+		2FB3BB102C20697400402317 /* AtjesApiClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AtjesApiClient;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2FB3BAC32C2056F700402317 /* Project object */;
+}

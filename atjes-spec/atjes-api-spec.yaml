@@ -1,0 +1,137 @@
+openapi: 3.0.0
+info:
+  title: Atjes API
+  version: 1.0.1
+tags:
+  - name: User
+    description: Operations related to users
+  - name: Beverage
+    description: Operations related to beverages
+paths:
+  /atje:
+    post:
+      tags:
+        - Beverage
+      operationId: registerBeverage
+      summary: Register a consumed beverage
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Beverage'
+      responses:
+        '201':
+          description: Beverage consumption registered successfully
+        '400':
+          description: Invalid request body
+  /atje/{id}:
+    get:
+      tags:
+        - Beverage
+      operationId: getBeveragesOfUser
+      summary: Get all consumed beverages of a user
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            description: The unique identifier of the user
+      responses:
+        '200':
+          description: List of all consumed beverages
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Beverage'
+        '404':
+          description: No consumed beverages found
+  /atjes:
+    get:
+      tags:
+        - Beverage
+      operationId: getBeverages
+      summary: Get all consumed beverages
+      responses:
+        '200':
+          description: List of all consumed beverages
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Beverage'
+        '404':
+          description: No consumed beverages found
+  /user:
+    post:
+        tags:
+          - User
+        summary: Register a new user
+        operationId: registerUser
+        requestBody:
+            required: true
+            content:
+              application/json:
+                  schema:
+                    $ref: '#/components/schemas/User'
+        responses:
+            '201':
+              description: User registered successfully
+            '400':
+              description: Invalid request body
+  /user/{id}:
+    get:
+      operationId: getUser
+      tags:
+        - User
+      summary: Get a specific user
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            description: The unique identifier of the user
+      responses:
+        '200':
+          description: Details of the user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '404':
+          description: User not found
+components:
+  schemas:
+    Beverage:
+      type: object
+      properties:
+        personId:
+          type: string
+          description: The ID of the person who consumed the beverage
+        beverageName:
+          type: string
+          description: The name of the beverage consumed
+        quantity:
+          type: integer
+          description: The quantity of the beverage consumed
+      required:
+        - personId
+        - beverageName
+        - quantity
+    User:
+      type: object
+      properties:
+        id:
+          type: string
+          description: The unique identifier for the user
+        name:
+          type: string
+          description: The name of the user
+      required:
+        - id
+        - name
