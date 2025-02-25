@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import nl.iodigital.atjes.backend.domain.Beverage;
+import nl.iodigital.atjes.backend.domain.BeverageEntity;
 
 @Repository
-public interface BeverageDao extends JpaRepository<Beverage, String> {
-    List<Beverage> getAllByPersonId(String personId);
+public interface BeverageDao extends JpaRepository<BeverageEntity, String> {
+    List<BeverageEntity> getAllByPersonId(String personId);
 }
